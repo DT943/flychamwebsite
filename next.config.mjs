@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Enables static export
+  // output: 'export',
   images: {
-    unoptimized: true, // Required for static export if using <Image>
+    // unoptimized: true,
   },
+  // staticPageGenerationTimeout: 60,
 };
 
 export default nextConfig;

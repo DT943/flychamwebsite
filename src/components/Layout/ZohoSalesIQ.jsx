@@ -6,7 +6,7 @@ export default function ZohoSalesIQ() {
   useEffect(() => {
     window.$zoho = window.$zoho || {};
     window.$zoho.salesiq = window.$zoho.salesiq || {
-      ready: function () {}
+      ready: function () { }
     };
 
     const script = document.createElement('script');
